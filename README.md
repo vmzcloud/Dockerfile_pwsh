@@ -16,3 +16,13 @@ https://docs.microsoft.com/en-us/powershell/scripting/install/install-centos?vie
 ## Docker Run
 
     docker run --rm -it vmzcloud/pwsh:centos7 pwsh
+
+## Powershell Command
+
+### Check PowerShell Version
+
+    PS /> $PSVersionTable.PSVersion
+
+    Major  Minor  Patch  PreReleaseLabel BuildLabel
+    -----  -----  -----  --------------- ----------
+    7      2      1                      
